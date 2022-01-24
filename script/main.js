@@ -298,7 +298,7 @@ const animationTimeline = () => {
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
   replyBtn.addEventListener("click", () => {
-    window.location.href= 'https://raushnn.github.io/rtrue/challange/index.html';
+    window.location.href= 'challange/index.html';
   });
 };
 

@@ -28,9 +28,11 @@ function showImage1(){
 
 function durr(a){
 	if (a=="motu"){
+		document.getElementById('a').remove();
 		play();
 	}
 	else{
+		document.getElementById('a').remove();
 		play1();
 	}
 }

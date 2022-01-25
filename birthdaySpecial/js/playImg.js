@@ -3,6 +3,7 @@ var btn = document.getElementById("heartTxt");
 btn.style.opacity = 0;
 var btnVal = 0;
 const audio = document.querySelector("audio");
+// const gcd = document.getElementById("a").value
 
 function showImage(){
 	//document.getElementById("imgTxt").style.opacity = 0;
@@ -12,6 +13,25 @@ function showImage(){
 	imageIndex++;
 	if(imageIndex >= len){
 		imageIndex = 0;
+	}
+}
+function showImage1(){
+	//document.getElementById("imgTxt").style.opacity = 0;
+	myImage.setAttribute("src", imageArray[imageIndex]);
+	// myTxt.innerHTML = txtArray[imageIndex];
+	//document.getElementById("imgTxt").style.opacity = 1 - flag;
+	imageIndex++;
+	if(imageIndex >= len){
+		imageIndex = 0;
+	}
+}
+
+function durr(a){
+	if (a=="motu"){
+		play();
+	}
+	else{
+		play1();
 	}
 }
 
@@ -30,6 +50,25 @@ function play(){
 	if(t == 0){
 		//setTimeout(showImage, 1000);
 		setInterval(showImage, 4000);
+	}
+	t++;
+}
+
+function play1(){
+	if(t == 0){
+		myImage.setAttribute("src", "");
+		myTxt.innerHTML = "";
+		imageIndex = 0;
+		clearInterval(showImageInterval);
+		audio.volume= 0.1;
+		audio.play();
+	}
+	flag = 1 - flag;
+	document.getElementById("typeDiv").style.opacity = flag;
+	document.getElementById("imgTxt").style.opacity = 1 - flag;
+	if(t == 0){
+		//setTimeout(showImage, 1000);
+		setInterval(showImage1, 4000);
 	}
 	t++;
 }

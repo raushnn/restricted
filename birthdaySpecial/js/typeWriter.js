@@ -1,6 +1,6 @@
 
 let i = 0;
-let text1 = "Happy Birthday again Miss Srivastava!!! \n Thanks for lightening up my life";
+let text1 = "Happy Birthday again Miss Srivastava!!!  Thanks for lightening up my life";
 let text2 = "To proceed further, You need to enter password, public version and private version is different. \n Hint: My Nickname"
 let speed = 100;
 

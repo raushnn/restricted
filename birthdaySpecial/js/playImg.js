@@ -43,7 +43,7 @@ function play(){
 		myTxt.innerHTML = "";
 		imageIndex = 0;
 		clearInterval(showImageInterval);
-		audio.volume= 0.1;
+		audio.volume= 0.2;
 		audio.play();
 	}
 	flag = 1 - flag;
@@ -62,7 +62,7 @@ function play1(){
 		myTxt.innerHTML = "";
 		imageIndex = 0;
 		clearInterval(showImageInterval);
-		audio.volume= 0.1;
+		audio.volume= 0.2;
 		audio.play();
 	}
 	flag = 1 - flag;

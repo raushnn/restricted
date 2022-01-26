@@ -1,7 +1,7 @@
 
 let i = 0;
-let text1 = "Happy Birthday MoMo";
-let text2 = "Thanks for lightening up my life"
+let text1 = "Happy Birthday again Miss Srivastava!!! \n Thanks for lightening up my life";
+let text2 = "To proceed further, You need to enter password, public version and private version is different. \n Hint: My Nickname"
 let speed = 100;
 
 function typeWriter(text, para){

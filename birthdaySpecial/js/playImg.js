@@ -18,7 +18,7 @@ function showImage(){
 function showImage1(){
 	//document.getElementById("imgTxt").style.opacity = 0;
 	myImage.setAttribute("src", imageArray[imageIndex]);
-	myTxt.innerHTML = txtArray1[imageIndex];
+	// myTxt.innerHTML = txtArray1[imageIndex];
 	//document.getElementById("imgTxt").style.opacity = 1 - flag;
 	imageIndex++;
 	if(imageIndex >= len){
